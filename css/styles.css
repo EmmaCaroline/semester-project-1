@@ -7,13 +7,13 @@
 @import url(./exhibitions.css);
 @import url(./documents.css);
 
-/* THIS PAGE: styles.css CONTAINS THE STYLING OF THE HEADER, THIN BANNER, FOOTER, AND ALSO MEDIA QUERIES FOR ALL HTML PAGES */
+/* THIS PAGE: styles.css CONTAINS THE STYLING OF THE HEADER, FOOTER, BUTTON, AND ALSO MEDIA QUERIES FOR ALL HTML PAGES */
 
 
 /* HEADER STYLING */
 
 .header {
-    padding: 0 1.75rem 0 1.75rem;  /* Note to self: Order: top, right, bottom, left. */
+    margin: 0 1.75rem 0 1.75rem;  /* Note to self: Order: top, right, bottom, left. */
     position: relative;
     height: 7.25rem;
     width: auto;
@@ -117,13 +117,11 @@
 }
 
 .menu li {
-    list-style-type: none;
     width: 100%;
 }
 
 .menu li a {
     color: var(--textcolor-primary);
-    text-decoration: none;
     display: block;
     text-align: center;
     padding: 1.25rem;
@@ -140,7 +138,7 @@ li:last-child a {
 
 /* THIN BACKGROUND BANNER STYLING */
 
-.gradient-banner {
+.gradientBanner {
     background-image: url("../images/all/banner_gradient.jpg");
     background-size: cover;
     height: 0.938rem;
@@ -149,18 +147,123 @@ li:last-child a {
 
 /* FOOTER STYLING */
 
+.footer {
+    background-image: url(../images/all/banner_footer.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #001C53;
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+.footerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.shortcuts ul, .followUs ul {
+    margin: 0;
+    padding: 0;
+}
+
+.shortcuts li {
+    line-height: 2.5rem;
+    color: var(--textcolor-primary);
+}
+
+.shortcuts a {
+    color: var(--textcolor-primary);
+    font-size: 14px;
+}
+
+.followUs .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.followUs .icons i{
+    padding: 0 12px 0 12px;
+}
+
+.footer h2, .footer h4 {
+    color: var(--textcolor-primary);
+}
+
+.shortcuts h2 {
+    padding-bottom: 10px;
+}
+
+.followUs h2 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.footer h4 {
+    text-align: center;
+}
+
+/* BUTTON STYLING */
+
+.button {
+    border-radius: 1.25rem;
+    background-color: var(--btn-color);
+    padding: 4px 16px 4px 16px;
+    border: 0.01rem solid #95086D;
+    box-shadow: 0 0.1rem #95086D;
+    cursor: pointer;
+}
+
+.button p, .button a {
+    color: var(--textcolor-primary);
+    font-family: var(--font-nunito);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
 
 
 /* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL PAGES */
 
 
 @media screen and (min-width: 760px){
+
+    /* RESET CSS CHANGES */
+
+    h1 {
+        font-size: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
     
     /* HEADER */
 
     .header {
         height: 8.563rem;
-        padding: 0 3.75rem 0 3.75rem;
+        margin: 0 3.75rem 0 3.75rem;
     }
 
     .logo img {
@@ -179,13 +282,97 @@ li:last-child a {
 
     /* THIN BACKGROUND BANNER */
 
-    .gradient-banner {
+    .gradientBanner {
         background-image: url("../images/all/banner_gradient_tab.jpg");
         height: 1.25rem;
     }
 
     /* FOOTER */
 
+    .footer {
+        background-image: url(../images/all/banner_footer_tab.jpg);
+        text-align: start;
+    }
+
+    .footerFlex {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .shortcuts li {
+        line-height: 5rem;
+    }
+
+    .shortcuts a {
+        font-size: 16px;
+    }
+
+    .followUs .icons {
+        flex-direction: column;
+        font-size: 40px;
+    }
+
+    .followUs .icons i{
+        padding: 30px 0 30px 0; /**/
+    }
+
+    .followUs h2 {
+        padding-top: 0;
+    }
+
+    /* HOMEPAGE MAIN CONTENT */
+
+    .button {
+        border-radius: 2rem;
+        padding: 7px 28px 7px 28px;
+        box-shadow: 0 0.2rem #95086D;
+    }
+    
+    .button p, .button a {
+        font-size: 1.125rem;
+    }
+
+    .herobanner {
+        height: 35rem;
+    }
+
+    .herobanner h1 {
+        line-height: 30rem;
+    }
+
+    .sectionTextWrapper {
+        margin-bottom: 54px;
+    }
+
+    .imageWrapper, .imageWrapper2 {
+        margin: 0 3.75rem 5rem 3.75rem;
+    }
+
+    .imageWrapper .textContainer, .imageWrapper2 .textContainer, .kids-3Dprinter .textContainer {
+        padding: 32px 30px 32px 30px;
+    }
+
+    .imageWrapper2 .button {
+        margin-bottom: 32px;
+    }
+
+    .kids-3Dprinter {
+        margin: 0 3.75rem 5rem 3.75rem;
+    }
+
+    .dnaBanner {
+        height: 11.75rem;
+    }
+
+    /* VISIT MAIN CONTENT */
+
+    /* CONTRIBUTION MAIN CONTENT */
+
+    /* EXHIBITIONS MAIN CONTENT */
+
+    /* DOCUMENTS MAIN CONTENT */
 
 }
 
@@ -195,17 +382,35 @@ li:last-child a {
 
 
 @media screen and (min-width: 1024px){
+
+    /* RESET CSS CHANGES */
+
+    h1 {
+        font-size: 68px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4{
+        font-size: 20px;
+    }
     
     /* HEADER */
 
     .header {
         height: 7.375rem;
-        padding: 0 5rem 0 5rem;
+        margin: 0 5rem 0 5rem;
     }
 
     .logo img {
-        height: 5.75rem;
-        width: 100%;
+        height: 5.60rem;
+        width: 9.538rem;
     }
 
     .menu {
@@ -241,12 +446,63 @@ li:last-child a {
 
     /* THIN BACKGROUND BANNER */
 
-    .gradient-banner {
+    .gradientBanner {
         background-image: url("../images/all/banner_gradient_desk.jpg");
         height: 1.563rem;
     }
 
     /* FOOTER */
 
+    .footer {
+        background-image: url(../images/all/banner_footer_desk.jpg);
+    }
+
+    .shortcuts li {
+        line-height: 3rem;
+    }
+
+    .followUs .icons {
+        font-size: 30px;
+    }
+
+    .followUs .icons i{
+        padding: 14px 0 14px 0;
+    }
+
+    /* HOMEPAGE MAIN CONTENT */
+
+    .button {
+        border-radius: 2rem;
+        padding: 5px 28px 5px 28px;
+
+    }
     
+    .button p, .button a {
+        font-size: 1.25rem;
+    }
+
+    .herobanner {
+        background-image: url(../images/home/herobanner_desktop.jpg);
+        height: 43.125rem;
+    }
+
+    .herobanner h1 {
+        line-height: 38rem;
+    }
+
+    .imageWrapper, .imageWrapper2 {
+        display: flex;
+        flex-direction: row; /*funket ikke, må lage en blueWrapper div rundt imageWrapper igjen og så sette flex row på den + evt flex wrap og så flex basis på disse her*/
+    }
+
+    /* VISIT MAIN CONTENT */
+
+    /* CONTRIBUTION MAIN CONTENT */
+
+    /* EXHIBITIONS MAIN CONTENT */
+
+    /* DOCUMENTS MAIN CONTENT */
+
+
+
 }
