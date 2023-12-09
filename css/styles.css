@@ -213,16 +213,17 @@ li:last-child a {
 
 /* BUTTON STYLING */
 
-.button {
+.button, .button2 {
     border-radius: 1.25rem;
     background-color: var(--btn-color);
     padding: 4px 16px 4px 16px;
     border: 0.01rem solid #95086D;
     box-shadow: 0 0.1rem #95086D;
     cursor: pointer;
+    white-space: nowrap;
 }
 
-.button p, .button a {
+.button p, .button2 p, .button a, .button2 a {
     color: var(--textcolor-primary);
     font-family: var(--font-nunito);
     text-transform: uppercase;
@@ -324,37 +325,54 @@ li:last-child a {
 
     /* HOMEPAGE MAIN CONTENT */
 
-    .button {
+    .button, .button2 {
         border-radius: 2rem;
         padding: 7px 28px 7px 28px;
         box-shadow: 0 0.2rem #95086D;
     }
     
-    .button p, .button a {
+    .button p, .button2 p, .button a, .button2 a {
         font-size: 1.125rem;
     }
 
     .herobanner {
         height: 35rem;
+        margin-top: 80px;
     }
 
     .herobanner h1 {
         line-height: 30rem;
     }
 
-    .sectionTextWrapper {
+    .sectionTextWrapper, .sectionTextWrapper2 {
         margin-bottom: 54px;
     }
 
-    .imageWrapper, .imageWrapper2 {
-        margin: 0 3.75rem 5rem 3.75rem;
+    .sectionTextWrapper {
+        margin-top: 120px;
     }
 
-    .imageWrapper .textContainer, .imageWrapper2 .textContainer, .kids-3Dprinter .textContainer {
+    .sectionTextWrapper2 {
+        margin-top: 40px;
+    }
+
+    .blueWrapper {
+        margin: 0 3.75rem 40px 3.75rem;
+    }
+
+    .blueWrapper2 {
+        margin: 0 3.75rem 80px 3.75rem;
+    }
+
+    .textContainer {
         padding: 32px 30px 32px 30px;
     }
 
-    .imageWrapper2 .button {
+    .imageWrapper, .imageWrapper3 {
+        margin-bottom: 80px;
+    }
+
+    .imageWrapper2 .button2 {
         margin-bottom: 32px;
     }
 
@@ -394,7 +412,7 @@ li:last-child a {
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 16px;
     }
 
     h4{
@@ -471,14 +489,16 @@ li:last-child a {
 
     /* HOMEPAGE MAIN CONTENT */
 
-    .button {
+    .button, .button2 {
         border-radius: 2rem;
-        padding: 5px 28px 5px 28px;
+        padding: 18px 24px 18px 24px;
 
     }
     
-    .button p, .button a {
-        font-size: 1.25rem;
+    .button p, .button2 p, .button a, .button2 a {
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
     }
 
     .herobanner {
@@ -490,10 +510,65 @@ li:last-child a {
         line-height: 38rem;
     }
 
-    .imageWrapper, .imageWrapper2 {
-        display: flex;
-        flex-direction: row; /*funket ikke, må lage en blueWrapper div rundt imageWrapper igjen og så sette flex row på den + evt flex wrap og så flex basis på disse her*/
+    .blueWrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 60px 55px 80px 55px;
     }
+
+    .blueWrapper2 {
+        margin: 60px 55px 80px 55px;
+    }
+
+    .imageWrapper, .imageWrapper2, .imageWrapper3 {
+        flex-basis: calc(33.33% - 1rem);
+        margin: 0 20px 0 20px;
+    }
+
+    .imageWrapper {
+        height: 710px;
+    }
+
+    .imageWrapper2 { 
+        background-color: #000000;
+        text-align: center;
+    }
+
+    .imageWrapper2 img {
+        width: 634px;
+    }
+
+    .imageWrapper2 .button2 {
+        margin-bottom: 0;
+    }
+
+    .imageWrapper3 {
+        height: 1080px;
+    }
+
+    .imageWrapper h3, .imageWrapper2 h3, .imageWrapper3 h3 {
+        color: var(--textcolor-primary);
+        padding: 5px 0 5px 0;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .textContainer {
+        padding: 32px 24px 32px 24px;
+    }
+
+    .kids-3Dprinter {
+        margin: 60px 75px 40px 75px;
+    }
+
+    .kids-3Dprinter p {
+        font-size: 24px;
+    }
+
+    .dnaBanner {
+        background-image: url(../images/home/banner_dna_desktop.jpg);
+    }
+
 
     /* VISIT MAIN CONTENT */
 

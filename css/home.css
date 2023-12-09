@@ -6,6 +6,7 @@
     height: 265px;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 
 .herobanner h1 {
@@ -13,46 +14,60 @@
     line-height: 16rem;
 }
 
-.sectionTextWrapper {
+.sectionTextWrapper, .sectionTextWrapper2 {
     background-color: #FFFFFF;
     height: 50px;
     width: 100%;
     text-align: center;
-    margin-top: 80px;
     margin-bottom: 25px;
 }
 
-.sectionTextWrapper h2 {
+.sectionTextWrapper {
+    margin-top: 80px;
+}
+
+.sectionTextWrapper2 {
+    margin-top: 55px;
+}
+
+.sectionTextWrapper h2, .sectionTextWrapper2 h2 {
     color: var(--textcolor-secondary);
     line-height: 3rem;
     text-transform: none;
 }
 
-.imageWrapper, .imageWrapper2 {
+.blueWrapper, .blueWrapper2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     max-width: 100%;
     min-height: auto;
-    background-color: var(--wrappercolor);
     margin: 0 1.75rem 1.563rem 1.75rem;
 }
 
-.imageWrapper h3, .imageWrapper2 h3 {
+.imageWrapper, .imageWrapper2, .imageWrapper3 {
+    background-color: var(--wrappercolor);
+}
+
+.imageWrapper, .imageWrapper3 {
+    margin-bottom: 1.563rem;
+}
+
+.imageWrapper h3, .imageWrapper2 h3, .imageWrapper3 h3 {
     color: var(--textcolor-primary);
     padding: 17px 0 17px 0;
-    overflow-wrap: break-word;
+    text-align: center;
 }
 
 .imageAndButtonContainer {
     position: relative;
-}
-
-.imageAndButtonContainer img, .imageWrapper2 img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.imageAndButtonContainer img, .imageWrapper2 img {
     max-width: 100%;
     height: auto;
 }
@@ -64,22 +79,24 @@
     transform: translate(-50%, -50%);
 }
 
-.imageWrapper .textContainer, .imageWrapper2 .textContainer, .kids-3Dprinter .textContainer {
+.imageWrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageWrapper2 .button2 {
+    margin-bottom: 18px;
+}
+
+.imageWrapper3 .button {
+    top: 90%;
+}
+
+.textContainer {
     color: var(--textcolor-primary);
     line-height: 20px;
     padding: 10px 12px 10px 12px;
-}
-
-.imageWrapper2 img, .kids-3Dprinter img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    height: auto;
-}
-
-.imageWrapper2 .button {
-    margin-bottom: 18px;
 }
 
 .kids-3Dprinter {
@@ -87,9 +104,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 55px 1.75rem 55px 1.75rem;
+}
+
+.kids-3Dprinter img { 
     max-width: 100%;
-    min-height: auto;
-    margin: 0 1.75rem 1.563rem 1.75rem;
+    height: auto;
 }
 
 .kids-3Dprinter .textContainer {
@@ -101,7 +121,7 @@
     background-size: cover;
     height: 5.625rem;
     width: 100%;
-    margin-top: 80px;
+
 }
 
 
