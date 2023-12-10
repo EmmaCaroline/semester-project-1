@@ -1,4 +1,6 @@
 
+/* THIS PAGE: "styles.css" CONTAINS IMPORTS AND THE STYLING OF THE HEADER, FOOTER, BUTTONS, AND ALSO CSS MEDIA QUERIES FOR ALL FILES */
+
 @import url(./reset.css);
 @import url(./variables.css);
 @import url(./home.css);
@@ -7,13 +9,10 @@
 @import url(./exhibitions.css);
 @import url(./documents.css);
 
-/* THIS PAGE: styles.css CONTAINS THE STYLING OF THE HEADER, FOOTER, BUTTON, AND ALSO MEDIA QUERIES FOR ALL HTML PAGES */
-
-
-/* HEADER STYLING */
+/* HEADER STYLING WITH HAMBURGER MENU */
 
 .header {
-    margin: 0 1.75rem 0 1.75rem;  /* Note to self: Order: top, right, bottom, left. */
+    margin: 0 1.75rem 0 1.75rem;
     position: relative;
     height: 7.25rem;
     width: auto;
@@ -168,16 +167,22 @@ li:last-child a {
 .shortcuts ul, .followUs ul {
     margin: 0;
     padding: 0;
+    line-height: 2.5rem;
 }
 
-.shortcuts li {
-    line-height: 2.5rem;
+.shortcuts li, .shortcuts a {
     color: var(--textcolor-primary);
 }
 
 .shortcuts a {
-    color: var(--textcolor-primary);
+    font-family: var(--font-nunito); 
     font-size: 14px;
+}
+
+.shortcuts p {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
 }
 
 .followUs .icons {
@@ -188,6 +193,7 @@ li:last-child a {
     font-size: 30px;
     color: #FFFFFF;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .followUs .icons i{
@@ -199,12 +205,12 @@ li:last-child a {
 }
 
 .shortcuts h2 {
-    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .followUs h2 {
-    padding-bottom: 20px;
-    padding-top: 40px;
+    margin-bottom: 35px;
+    margin-top: 50px;
 }
 
 .footer h4 {
@@ -216,7 +222,7 @@ li:last-child a {
 .button, .button2 {
     border-radius: 1.25rem;
     background-color: var(--btn-color);
-    padding: 4px 16px 4px 16px;
+    padding: 16px 16px 16px 16px;
     border: 0.01rem solid #95086D;
     box-shadow: 0 0.1rem #95086D;
     cursor: pointer;
@@ -229,16 +235,18 @@ li:last-child a {
     text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
 }
 
 
 
-/* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL PAGES */
+/* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL CSS FILES */
 
 
 @media screen and (min-width: 760px){
 
-    /* RESET CSS CHANGES */
+    /* RESET CSS CHANGES TABLET */
 
     h1 {
         font-size: 52px;
@@ -260,7 +268,7 @@ li:last-child a {
         font-size: 16px;
     }
     
-    /* HEADER */
+    /* HEADER AND HAMBURGER MENU TABLET */
 
     .header {
         height: 8.563rem;
@@ -281,14 +289,14 @@ li:last-child a {
         font-size: 1.375rem;
     }
 
-    /* THIN BACKGROUND BANNER */
+    /* THIN BACKGROUND BANNER TABLET */
 
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_tab.jpg");
         height: 1.25rem;
     }
 
-    /* FOOTER */
+    /* FOOTER TABLET */
 
     .footer {
         background-image: url(../images/all/banner_footer_tab.jpg);
@@ -302,12 +310,17 @@ li:last-child a {
         text-align: start;
     }
 
-    .shortcuts li {
-        line-height: 5rem;
+    .shortcuts ul {
+        line-height: 4.6rem;
     }
 
     .shortcuts a {
         font-size: 16px;
+    }
+
+    .shortcuts h2 {
+        margin-top: 50px;
+        margin-bottom: 35px;
     }
 
     .followUs .icons {
@@ -316,18 +329,17 @@ li:last-child a {
     }
 
     .followUs .icons i{
-        padding: 30px 0 30px 0; /**/
+        padding: 30px 0 30px 0;
     }
 
-    .followUs h2 {
-        padding-top: 0;
-    }
 
-    /* HOMEPAGE MAIN CONTENT */
+
+
+    /* INDEX / HOMEPAGE MAIN CONTENT TABLET */
 
     .button, .button2 {
-        border-radius: 2rem;
-        padding: 7px 28px 7px 28px;
+        border-radius: 2.2rem;
+        padding: 22px 30px 22px 30px;
         box-shadow: 0 0.2rem #95086D;
     }
     
@@ -337,11 +349,14 @@ li:last-child a {
 
     .herobanner {
         height: 35rem;
-        margin-top: 80px;
     }
 
     .herobanner h1 {
         line-height: 30rem;
+    }
+
+    .clickableGames img {
+        height: 130px;
     }
 
     .sectionTextWrapper, .sectionTextWrapper2 {
@@ -401,7 +416,7 @@ li:last-child a {
 
 @media screen and (min-width: 1024px){
 
-    /* RESET CSS CHANGES */
+    /* RESET CSS CHANGES DESKTOP */
 
     h1 {
         font-size: 68px;
@@ -412,14 +427,18 @@ li:last-child a {
     }
 
     h3 {
-        font-size: 16px;
+        font-size: 20px;/*16px;*/
     }
 
     h4{
         font-size: 20px;
     }
+
+    p {
+        font-size: 18px;
+    }
     
-    /* HEADER */
+    /* HEADER DESKTOP */
 
     .header {
         height: 7.375rem;
@@ -462,21 +481,25 @@ li:last-child a {
         display: none;
     }
 
-    /* THIN BACKGROUND BANNER */
+    /* THIN BACKGROUND BANNER DESKTOP */
 
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_desk.jpg");
         height: 1.563rem;
     }
 
-    /* FOOTER */
+    /* FOOTER DESKTOP */
 
     .footer {
         background-image: url(../images/all/banner_footer_desk.jpg);
     }
 
-    .shortcuts li {
+    .shortcuts ul {
         line-height: 3rem;
+    }
+
+    .shortcuts a {
+        font-size: 18px;
     }
 
     .followUs .icons {
@@ -487,7 +510,7 @@ li:last-child a {
         padding: 14px 0 14px 0;
     }
 
-    /* HOMEPAGE MAIN CONTENT */
+    /* INDEX / HOMEPAGE MAIN CONTENT DESKTOP */
 
     .button, .button2 {
         border-radius: 2rem;
@@ -497,8 +520,6 @@ li:last-child a {
     
     .button p, .button2 p, .button a, .button2 a {
         font-size: 16px;
-        margin: 0;
-        padding: 0;
     }
 
     .herobanner {
@@ -510,23 +531,43 @@ li:last-child a {
         line-height: 38rem;
     }
 
+    .clickableGames img {
+        height: 170px;
+    }
+
+    .sectionTextWrapper, .sectionTextWrapper2 {
+        height: 75px;
+    }
+
+    .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
+        line-height: 4.5rem;
+    }
+
+    .sectionTextWrapper {
+        margin-top: 80px;
+    }
+
+    .sectionTextWrapper2 {
+        margin-top: 0;
+    }
+
     .blueWrapper {
         flex-direction: row;
         align-items: flex-start;
-        margin: 60px 55px 80px 55px;
     }
 
-    .blueWrapper2 {
+    .blueWrapper, .blueWrapper2 {
         margin: 60px 55px 80px 55px;
     }
 
     .imageWrapper, .imageWrapper2, .imageWrapper3 {
         flex-basis: calc(33.33% - 1rem);
         margin: 0 20px 0 20px;
+        border-radius: 14px;
     }
 
     .imageWrapper {
-        height: 710px;
+        height: 900px;
     }
 
     .imageWrapper2 { 
@@ -543,13 +584,11 @@ li:last-child a {
     }
 
     .imageWrapper3 {
-        height: 1080px;
+        height: 1150px;
     }
 
     .imageWrapper h3, .imageWrapper2 h3, .imageWrapper3 h3 {
-        color: var(--textcolor-primary);
         padding: 5px 0 5px 0;
-        text-align: center;
         line-height: 2rem;
     }
 
