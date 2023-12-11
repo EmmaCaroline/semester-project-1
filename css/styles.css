@@ -249,13 +249,13 @@ li:last-child a {
 
 @media screen and (min-width: 760px){
 
-    /* RESET CSS CHANGES TABLET */
+    /* RESET CSS CHANGES, TABLET */
 
     p {
         font-size: 16px;
     }
     
-    /* HEADER AND HAMBURGER MENU TABLET */
+    /* HEADER AND HAMBURGER MENU, TABLET */
 
     .header {
         height: 8.563rem;
@@ -276,14 +276,14 @@ li:last-child a {
         font-size: 1.375rem;
     }
 
-    /* THIN BACKGROUND BANNER TABLET */
+    /* THIN BACKGROUND BANNER, TABLET */
 
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_tab.jpg");
         height: 1.25rem;
     }
 
-    /* FOOTER TABLET */
+    /* FOOTER, TABLET */
 
     .footer {
         background-image: url(../images/all/banner_footer_tab.jpg);
@@ -327,7 +327,7 @@ li:last-child a {
         font-size: 18px;
     }
 
-    /* BUTTON TABLET */
+    /* BUTTON, TABLET */
 
     .button, .button2 {
         border-radius: 2.2rem;
@@ -339,7 +339,7 @@ li:last-child a {
         font-size: 1.125rem;
     }
 
-    /* INDEX / HOMEPAGE MAIN CONTENT TABLET */
+    /* INDEX/HOMEPAGE MAIN CONTENT, TABLET */
 
     .herobanner {
         height: 35rem;
@@ -404,7 +404,7 @@ li:last-child a {
         height: 11.75rem;
     }
 
-    /* VISIT MAIN CONTENT */
+    /* VISIT MAIN CONTENT, TABLET */
 
     .topPage-info {
         margin: 0 3.75rem 80px 3.75rem;
@@ -448,7 +448,7 @@ li:last-child a {
         margin: 0 3.75rem 100px 3.75rem;
     }
 
-    /* CONTRIBUTION MAIN CONTENT */
+    /* CONTRIBUTION MAIN CONTENT, TABLET */
 
     .sectionContainer3 {
         margin: 0 3.75rem 80px 3.75rem;
@@ -470,9 +470,9 @@ li:last-child a {
         margin-bottom: 100px;
     }
 
-    /* EXHIBITIONS MAIN CONTENT */
+    /* EXHIBITIONS MAIN CONTENT, TABLET */
 
-    /* DOCUMENTS MAIN CONTENT */
+    /* DOCUMENTS MAIN CONTENT, TABLET */
 
 }
 
@@ -483,13 +483,13 @@ li:last-child a {
 
 @media screen and (min-width: 1024px){
 
-    /* RESET CSS CHANGES DESKTOP */
+    /* RESET CSS CHANGES, DESKTOP */
 
     p {
         font-size: 18px;
     }
     
-    /* HEADER DESKTOP */
+    /* HEADER, DESKTOP */
 
     .header {
         height: 7.375rem;
@@ -532,14 +532,14 @@ li:last-child a {
         display: none;
     }
 
-    /* THIN BACKGROUND BANNER DESKTOP */
+    /* THIN BACKGROUND BANNER, DESKTOP */
 
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_desk.jpg");
         height: 1.563rem;
     }
 
-    /* FOOTER DESKTOP */
+    /* FOOTER, DESKTOP */
 
     .footer {
         background-image: url(../images/all/banner_footer_desk.jpg);
@@ -561,7 +561,7 @@ li:last-child a {
         padding: 14px 0 14px 0;
     }
 
-    /* BUTTON DESKTOP */
+    /* BUTTON, DESKTOP */
 
     .button, .button2 {
         border-radius: 2rem;
@@ -572,7 +572,7 @@ li:last-child a {
         font-size: 16px;
     }
 
-    /* INDEX / HOMEPAGE MAIN CONTENT DESKTOP */
+    /* INDEX/HOMEPAGE MAIN CONTENT, DESKTOP */
 
     .herobanner {
         background-image: url(../images/home/herobanner_desktop.jpg);
@@ -664,7 +664,7 @@ li:last-child a {
         background-image: url(../images/home/banner_dna_desktop.jpg);
     }
 
-    /* VISIT MAIN CONTENT */
+    /* VISIT MAIN CONTENT, DESKTOP */
 
     .topPage-info {
         margin: 0 75px 40px 75px;
@@ -708,7 +708,7 @@ li:last-child a {
         margin: 0 75px 125px 75px;
     }
 
-    /* CONTRIBUTION MAIN CONTENT */
+    /* CONTRIBUTION MAIN CONTENT, DESKTOP */
 
     .sectionContainer3 {
         flex-direction: row;
@@ -740,9 +740,9 @@ li:last-child a {
         margin-bottom: 18px;
     }
 
-    /* EXHIBITIONS MAIN CONTENT */
+    /* EXHIBITIONS MAIN CONTENT, DESKTOP */
 
-    /* DOCUMENTS MAIN CONTENT */
+    /* DOCUMENTS MAIN CONTENT, DESKTOP */
 
 
 
