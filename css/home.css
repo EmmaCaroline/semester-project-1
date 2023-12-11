@@ -13,8 +13,8 @@
 }
 
 .herobanner h1 {
-    color: var(--textcolor-primary);
     line-height: 16rem;
+    font-size: 36px;
 }
 
 .clickableGames {
@@ -68,11 +68,12 @@
 
 .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
     color: var(--textcolor-secondary);
+    font-size: 24px;
     line-height: 3rem;
     text-transform: none;
 }
 
-.blueWrapper, .blueWrapper2 {
+.sectionContainer, .sectionContainer2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,21 +83,22 @@
     margin: 0 1.75rem 1.563rem 1.75rem;
 }
 
-.imageWrapper, .imageWrapper2, .imageWrapper3 {
+.blueWrapper, .blueWrapper2, .blueWrapper3 {
     background-color: var(--wrappercolor);
     border-radius: 10px;
-    
+    width: 100%;
 }
 
-.imageWrapper, .imageWrapper3 {
+.blueWrapper, .blueWrapper3 {
     margin-bottom: 1.563rem;
 }
 
-.imageWrapper h3, .imageWrapper2 h3, .imageWrapper3 h3 {
+.blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
     color: var(--textcolor-primary);
     padding: 17px 0 17px 0;
     text-align: center;
     white-space: nowrap;
+    font-size: 18px;
 }
 
 .imageAndButtonContainer {
@@ -106,7 +108,7 @@
     justify-content: center;
 }
 
-.imageAndButtonContainer img, .imageWrapper2 img {
+.imageAndButtonContainer img, .blueWrapper2 img {
     max-width: 100%;
     height: auto;
 }
@@ -118,17 +120,17 @@
     transform: translate(-50%, -50%);
 }
 
-.imageWrapper2 {
+.blueWrapper2 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.imageWrapper2 .button2 {
+.blueWrapper2 .button2 {
     margin-bottom: 18px;
 }
 
-.imageWrapper3 .button {
+.blueWrapper3 .button {
     top: 90%;
 }
 

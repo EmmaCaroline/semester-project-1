@@ -1,5 +1,5 @@
 
-/* THIS PAGE: "styles.css" CONTAINS IMPORTS AND THE STYLING OF THE HEADER, FOOTER, BUTTONS, AND ALSO CSS MEDIA QUERIES FOR ALL FILES */
+/* THIS PAGE: "styles.css" CONTAINS IMPORTS, AND STYLING OF THE HEADER/NAV, FOOTER, BUTTONS, AND ALSO CSS MEDIA QUERIES FOR ALL FILES */
 
 @import url(./reset.css);
 @import url(./variables.css);
@@ -193,15 +193,24 @@ li:last-child a {
     font-size: 30px;
     color: #FFFFFF;
     margin-bottom: 50px;
-    cursor: pointer;
 }
 
 .followUs .icons i{
     padding: 0 12px 0 12px;
+    cursor: pointer;
 }
 
 .footer h2, .footer h4 {
     color: var(--textcolor-primary);
+}
+
+.footer h2 {
+    font-size: 24px;
+}
+
+.footer h4 {
+    font-size: 14px;
+    text-align: center;
 }
 
 .shortcuts h2 {
@@ -211,10 +220,6 @@ li:last-child a {
 .followUs h2 {
     margin-bottom: 35px;
     margin-top: 50px;
-}
-
-.footer h4 {
-    text-align: center;
 }
 
 /* BUTTON STYLING */
@@ -239,30 +244,12 @@ li:last-child a {
     padding: 0;
 }
 
-
-
 /* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL CSS FILES */
 
 
 @media screen and (min-width: 760px){
 
     /* RESET CSS CHANGES TABLET */
-
-    h1 {
-        font-size: 52px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 22px;
-    }
-
-    h4{
-        font-size: 18px;
-    }
 
     p {
         font-size: 16px;
@@ -332,10 +319,15 @@ li:last-child a {
         padding: 30px 0 30px 0;
     }
 
+    .footer h2 {
+        font-size: 30px;
+    }
 
+    .footer h4 {
+        font-size: 18px;
+    }
 
-
-    /* INDEX / HOMEPAGE MAIN CONTENT TABLET */
+    /* BUTTON TABLET */
 
     .button, .button2 {
         border-radius: 2.2rem;
@@ -347,12 +339,15 @@ li:last-child a {
         font-size: 1.125rem;
     }
 
+    /* INDEX / HOMEPAGE MAIN CONTENT TABLET */
+
     .herobanner {
         height: 35rem;
     }
 
     .herobanner h1 {
         line-height: 30rem;
+        font-size: 52px;
     }
 
     .clickableGames img {
@@ -360,7 +355,13 @@ li:last-child a {
     }
 
     .sectionTextWrapper, .sectionTextWrapper2 {
+        height: 90px;
         margin-bottom: 54px;
+    }
+
+    .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
+        line-height: 5.2rem;
+        font-size: 30px;
     }
 
     .sectionTextWrapper {
@@ -371,11 +372,11 @@ li:last-child a {
         margin-top: 40px;
     }
 
-    .blueWrapper {
+    .sectionContainer {
         margin: 0 3.75rem 40px 3.75rem;
     }
 
-    .blueWrapper2 {
+    .sectionContainer2 {
         margin: 0 3.75rem 80px 3.75rem;
     }
 
@@ -383,11 +384,15 @@ li:last-child a {
         padding: 32px 30px 32px 30px;
     }
 
-    .imageWrapper, .imageWrapper3 {
+    .blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
+        font-size: 22px;
+    }
+
+    .blueWrapper, .blueWrapper3 {
         margin-bottom: 80px;
     }
 
-    .imageWrapper2 .button2 {
+    .blueWrapper2 .button2 {
         margin-bottom: 32px;
     }
 
@@ -401,7 +406,69 @@ li:last-child a {
 
     /* VISIT MAIN CONTENT */
 
+    .topPage-info {
+        margin: 0 3.75rem 80px 3.75rem;
+    }
+
+    .topPage-info h1 {
+        font-size: 30px;
+        margin: 60px 0 60px 0;
+    }
+
+    .visit-h2 {
+        font-size: 22px;
+    }
+
+    .textContainer2 {
+        padding: 32px 30px 32px 30px;
+    }
+
+    .formContainer {
+        margin: 60px 3.75rem 100px 3.75rem;
+    }
+
+    .formHeader {
+        font-size: 22px;
+        margin-bottom: 35px; 
+    }
+
+    input, textarea {
+        font-size: 16px;
+        padding: 8px 0 8px 0;
+        margin-bottom: 10px;
+    }
+
+    .formContainer .button {
+        margin-top: 10px;
+        padding-left: 50px; 
+        padding-right: 50px;
+    }
+
+    .imageWrapper {
+        margin: 0 3.75rem 100px 3.75rem;
+    }
+
     /* CONTRIBUTION MAIN CONTENT */
+
+    .sectionContainer3 {
+        margin: 0 3.75rem 80px 3.75rem;
+    }
+    
+    .blueWrapper4 {
+        margin-bottom: 80px;
+    }
+    
+    .blueWrapper4 h2 {
+        font-size: 22px;
+    }
+    
+    .blueWrapper4 .button2 {
+        margin-bottom: 32px;
+    }
+    
+    .sectionContainer3:last-child {
+        margin-bottom: 100px;
+    }
 
     /* EXHIBITIONS MAIN CONTENT */
 
@@ -417,22 +484,6 @@ li:last-child a {
 @media screen and (min-width: 1024px){
 
     /* RESET CSS CHANGES DESKTOP */
-
-    h1 {
-        font-size: 68px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    h3 {
-        font-size: 20px;/*16px;*/
-    }
-
-    h4{
-        font-size: 20px;
-    }
 
     p {
         font-size: 18px;
@@ -510,17 +561,18 @@ li:last-child a {
         padding: 14px 0 14px 0;
     }
 
-    /* INDEX / HOMEPAGE MAIN CONTENT DESKTOP */
+    /* BUTTON DESKTOP */
 
     .button, .button2 {
         border-radius: 2rem;
-        padding: 18px 24px 18px 24px;
-
+        padding: 18px 30px 18px 30px;
     }
     
     .button p, .button2 p, .button a, .button2 a {
         font-size: 16px;
     }
+
+    /* INDEX / HOMEPAGE MAIN CONTENT DESKTOP */
 
     .herobanner {
         background-image: url(../images/home/herobanner_desktop.jpg);
@@ -529,6 +581,7 @@ li:last-child a {
 
     .herobanner h1 {
         line-height: 38rem;
+        font-size: 68px;
     }
 
     .clickableGames img {
@@ -541,6 +594,7 @@ li:last-child a {
 
     .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
         line-height: 4.5rem;
+        font-size: 32px;
     }
 
     .sectionTextWrapper {
@@ -551,45 +605,47 @@ li:last-child a {
         margin-top: 0;
     }
 
-    .blueWrapper {
+    .sectionContainer {
         flex-direction: row;
         align-items: flex-start;
     }
 
-    .blueWrapper, .blueWrapper2 {
+    .sectionContainer, .sectionContainer2 {
         margin: 60px 55px 80px 55px;
     }
 
-    .imageWrapper, .imageWrapper2, .imageWrapper3 {
+    .blueWrapper, .blueWrapper2, .blueWrapper3 {
         flex-basis: calc(33.33% - 1rem);
         margin: 0 20px 0 20px;
         border-radius: 14px;
+        font-size: 20px;
     }
 
-    .imageWrapper {
+    .blueWrapper {
         height: 900px;
     }
 
-    .imageWrapper2 { 
+    .blueWrapper2 { 
         background-color: #000000;
         text-align: center;
     }
 
-    .imageWrapper2 img {
+    .blueWrapper2 img {
         width: 634px;
     }
 
-    .imageWrapper2 .button2 {
+    .buttonAlignment .button2 {
         margin-bottom: 0;
     }
 
-    .imageWrapper3 {
+    .blueWrapper3 {
         height: 1150px;
     }
 
-    .imageWrapper h3, .imageWrapper2 h3, .imageWrapper3 h3 {
+    .blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
         padding: 5px 0 5px 0;
         line-height: 2rem;
+        font-size: 18px;
     }
 
     .textContainer {
@@ -608,10 +664,81 @@ li:last-child a {
         background-image: url(../images/home/banner_dna_desktop.jpg);
     }
 
-
     /* VISIT MAIN CONTENT */
 
+    .topPage-info {
+        margin: 0 75px 40px 75px;
+    }
+
+    .topPage-info h1 {
+        font-size: 32px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .visit-h2 {
+        font-size: 26px;
+        margin-top: 45px;
+    }
+
+    .textContainer2 {
+        line-height: 40px;
+        padding: 6px 24px 32px 24px;
+    }
+
+    .visit-p-special {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .formContainer {
+        margin: 55px 350px 125px 350px;
+    }
+
+    .formHeader {
+        font-size: 26px;
+        margin-bottom: 40px; 
+    }
+
+    input, textarea {
+        padding: 10px 0 10px 0;
+    }
+
+    .imageWrapper {
+        margin: 0 75px 125px 75px;
+    }
+
     /* CONTRIBUTION MAIN CONTENT */
+
+    .sectionContainer3 {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 60px 55px 0 55px;
+    }
+    
+    .blueWrapper4 {
+        flex-basis: calc(33.33% - 1rem);
+        margin: 0 20px 0 20px;
+        border-radius: 14px;
+        font-size: 20px;
+        height: 845px;
+        margin-bottom: 1.563rem;
+    }
+    
+    .blueWrapper4 h2 {
+        padding: 5px 0 5px 0;
+        line-height: 2rem;
+        font-size: 18px;
+    }
+
+    .buttonAlignment {
+        height: 100%;
+        justify-content: flex-end;
+    }
+    
+    .buttonAlignment .button2 {
+        margin-bottom: 18px;
+    }
 
     /* EXHIBITIONS MAIN CONTENT */
 
