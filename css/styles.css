@@ -12,14 +12,19 @@
 /* HEADER STYLING WITH HAMBURGER MENU */
 
 .header {
-    margin: 0 1.75rem 0 1.75rem;
-    position: relative;
+    padding: 0 1.75rem 0 1.75rem;
+    position: fixed; 
     height: 7.25rem;
     width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
 }
 
 .logo a {
@@ -142,6 +147,7 @@ li:last-child a {
     background-size: cover;
     height: 0.938rem;
     width: 100%;
+    margin-top: 120px;
 }
 
 /* FOOTER STYLING */
@@ -259,7 +265,7 @@ li:last-child a {
 
     .header {
         height: 8.563rem;
-        margin: 0 3.75rem 0 3.75rem;
+        padding: 0 3.75rem 0 3.75rem;
     }
 
     .logo img {
@@ -281,6 +287,7 @@ li:last-child a {
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_tab.jpg");
         height: 1.25rem;
+        margin-top: 140px;
     }
 
     /* FOOTER, TABLET */
@@ -472,6 +479,58 @@ li:last-child a {
 
     /* EXHIBITIONS MAIN CONTENT, TABLET */
 
+    .smallBanner {
+        height: 120px;
+        margin-bottom: 60px;
+    }
+    
+    .smallBanner h1 {
+        line-height: 5.5rem;
+        font-size: 30px;
+    }
+    
+    .lightblueWrapper, .blueWrapper5 {
+        margin: 0 3.75rem 80px 3.75rem;
+    }
+    
+    .lightblueWrapper h2, .blueWrapper5 h2 {
+        font-size: 34px;
+    }
+    
+    .smallBanner2 {
+        height: 120px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    
+    .smallBanner2 h3 {
+        line-height: 3.8rem;
+        font-size: 30px;
+    }
+    
+    .sectionContainer4 {
+        margin: 0 3.75rem 0 3.75rem;
+    }
+    
+    .imageWrapperRound {
+        margin-bottom: 80px;
+    }
+    
+    .imageWrapperRound .button {
+        top: 60%;
+        transform: translate(-50%, -60%);
+    }
+    
+    .imageWrapperRound h4 {
+        font-size: 22px;
+    }
+    
+    .textContainer2 {
+        margin: 0 3.75rem 80px 3.75rem;
+        text-align: center;
+        color: var(--textcolor-primary);
+    }
+
     /* DOCUMENTS MAIN CONTENT, TABLET */
 
 }
@@ -493,7 +552,7 @@ li:last-child a {
 
     .header {
         height: 7.375rem;
-        margin: 0 5rem 0 5rem;
+        padding: 0 5rem 0 5rem;
     }
 
     .logo img {
@@ -537,6 +596,7 @@ li:last-child a {
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_desk.jpg");
         height: 1.563rem;
+        margin-top: 125px;
     }
 
     /* FOOTER, DESKTOP */
@@ -741,6 +801,73 @@ li:last-child a {
     }
 
     /* EXHIBITIONS MAIN CONTENT, DESKTOP */
+
+    .smallBanner {
+        background-image: url(../images/exhibitions/exhibitions_bg_desktop.jpg);
+        height: 140px;
+        margin-bottom: 80px;
+    }
+    
+    .smallBanner h1 {
+        line-height: 6.5rem;
+        font-size: 32px;
+    }
+    
+    .lightblueWrapper, .blueWrapper5 {
+        flex-direction: row;
+        margin: 0 75px 80px 75px;
+    }
+    
+    .lightblueWrapper h2, .blueWrapper5 h2 {
+        font-size: 36px;
+        padding-left: 24px;
+        margin: 0 75px 0 75px;
+        /*text-align: ?; må gjøre noe for å sentrere teksten*/
+    }
+
+    .lightblueWrapper img, .blueWrapper5 img {
+        width: auto;
+    }
+
+    .exhibitionsTextContainer {
+        align-items: flex-start;
+    }
+    
+    .smallBanner2 {
+        background-image: url(../images/exhibitions/upcoming_bg_desktop.jpg);
+        height: 140px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+    
+    .smallBanner2 h3 {
+        line-height: 4.5rem;
+        font-size: 32px;
+    }
+    
+    .sectionContainer4 {
+        flex-direction: row;
+        margin: 0 50px 80px 50px;
+    }
+    
+    .imageWrapperRound {
+        margin-bottom: 0;
+        padding: 0 25px 0 25px;
+    }
+    
+    .imageWrapperRound .button {
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -65%);
+    }
+    
+    .imageWrapperRound h4 {
+        font-size: 23px;
+    }
+    
+    .textContainer2 {
+        margin: 50px 75px 75px 70px;
+    }
 
     /* DOCUMENTS MAIN CONTENT, DESKTOP */
 

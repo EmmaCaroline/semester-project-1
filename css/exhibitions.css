@@ -49,9 +49,16 @@
 }
 
 .lightblueWrapper img, .blueWrapper5 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.exhibitionsTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .lightblueWrapper .textContainer p, .blueWrapper5 .textContainer p {
