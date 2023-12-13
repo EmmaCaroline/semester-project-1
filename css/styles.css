@@ -525,15 +525,31 @@ li:last-child a {
         font-size: 22px;
     }
     
-    .textContainer2 {
+    .textContainer3 {
         margin: 0 3.75rem 80px 3.75rem;
-        text-align: center;
-        color: var(--textcolor-primary);
     }
 
     /* DOCUMENTS MAIN CONTENT, TABLET */
 
+    .documentsHeader, .textHeader, .textContainer4 {
+        margin: 0 3.75rem 25px 3.75rem;
+    }
+
+    .documentsHeader {
+        margin-top: 40px;
+    }
+    
+    .documentsHeader h1 {
+        font-size: 30px;
+    }
+    
+    .textHeader h2 {
+        font-size: 22px;
+
+    }
+    
 }
+
 
 
 
@@ -820,9 +836,8 @@ li:last-child a {
     
     .lightblueWrapper h2, .blueWrapper5 h2 {
         font-size: 36px;
-        padding-left: 24px;
-        margin: 0 75px 0 75px;
-        /*text-align: ?; må gjøre noe for å sentrere teksten*/
+        padding: 0 24px 0 24px;
+        text-align: left;
     }
 
     .lightblueWrapper img, .blueWrapper5 img {
@@ -865,12 +880,36 @@ li:last-child a {
         font-size: 23px;
     }
     
-    .textContainer2 {
+    .textContainer3 {
         margin: 50px 75px 75px 70px;
+        line-height: 40px;
     }
 
     /* DOCUMENTS MAIN CONTENT, DESKTOP */
 
+    .documentsHeader, .textHeader, .textContainer4 {
+        margin: 0 75px 50px 75px;
+    }
 
+    .documentsHeader {
+        margin-top: 120px;
+    }
+    
+    .documentsHeader h1 {
+        font-size: 32px;
+    }
+    
+    .textHeader h2 {
+        font-size: 26px;
+        margin-top: 80px;
+    }
+
+    .documentsHeader p, .textContainer4 p {
+        line-height: 30px;
+    }
+
+    .textContainer4:last-child {
+        margin-bottom: 100px;
+    }
 
 }

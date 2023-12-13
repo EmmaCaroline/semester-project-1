@@ -1,2 +1,33 @@
 
 /* THIS PAGE: "documents.css" CONTAINS THE STYLING OF MAIN CONTENT ON PRIVACY POLICY PAGE, AND TERMS AND CONDITIONS PAGE */
+
+.documentsHeader, .textHeader, .textContainer4 {
+    margin: 0 1.75rem 1.563rem 1.75rem;
+}
+
+.documentsHeader {
+    margin-top: 40px;
+}
+
+.documentsHeader h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.textHeader h2 {
+    color: var(--textcolor-primary);
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.documentsHeader p, .textContainer4 p {
+    color: var(--textcolor-primary);
+    line-height: 20px;
+}
+
+.textContainer4:last-child {
+    margin-bottom: 75px;
+}
