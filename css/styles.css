@@ -261,6 +261,14 @@ li:last-child a {
     padding: 0;
 }
 
+@supports (-webkit-appearance: none) and (display: flex) {
+    /* Add specific styles for Samsung Internet dark mode here */
+    /* For example: */
+    body {
+      filter: none; /* Reset any unwanted filters or overlays */
+    }
+}
+
 /* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL CSS FILES */
 
 
@@ -922,5 +930,4 @@ li:last-child a {
     .textContainer4:last-child {
         margin-bottom: 100px;
     }
-
 }
