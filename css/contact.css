@@ -2,10 +2,11 @@
 /* THIS PAGE: "contact.css" CONTAINS THE STYLING OF MAIN CONTENT ON VISIT / CONTACT PAGE */
 
 /* Reused CSS from other stylesheets: 
-.sectionContainer (found in: "home.css")
-.blueWrapper (found in: "home.css")
-.textContainer (found in: "home.css")
-.button (found in: "styles.css")
+.visually-hidden         (found in: "styles.css")
+.sectionContainer        (found in: "home.css")
+.blueWrapper             (found in: "home.css")
+.textContainer           (found in: "home.css")
+.button                  (found in: "styles.css")
 */
 
 .topPage-info {

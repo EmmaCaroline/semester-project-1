@@ -151,6 +151,7 @@ li:last-child a {
     border-bottom: 1px solid #D9D9D9;
 }
 
+
 /* THIN BACKGROUND BANNER STYLING */
 
 .gradientBanner {
@@ -160,6 +161,7 @@ li:last-child a {
     width: 100%;
     margin-top: 120px;
 }
+
 
 /* FOOTER STYLING */
 
@@ -239,6 +241,7 @@ li:last-child a {
     margin-top: 50px;
 }
 
+
 /* BUTTON STYLING */
 
 .button, .button2 {
@@ -261,19 +264,8 @@ li:last-child a {
     padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        filter: none;
-    }
-}
-
-/*@supports (-webkit-appearance: none) and (display: flex) {
-    body {
-      filter: none; /*
-}*/
 
 /* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL CSS FILES */
-
 
 @media screen and (min-width: 760px){
 
@@ -282,6 +274,7 @@ li:last-child a {
     p {
         font-size: 16px;
     }
+
     
     /* HEADER AND HAMBURGER MENU, TABLET */
 
@@ -304,6 +297,7 @@ li:last-child a {
         font-size: 1.375rem;
     }
 
+
     /* THIN BACKGROUND BANNER, TABLET */
 
     .gradientBanner {
@@ -311,6 +305,7 @@ li:last-child a {
         height: 1.25rem;
         margin-top: 140px;
     }
+
 
     /* FOOTER, TABLET */
 
@@ -356,6 +351,7 @@ li:last-child a {
         font-size: 18px;
     }
 
+
     /* BUTTON, TABLET */
 
     .button, .button2 {
@@ -367,6 +363,7 @@ li:last-child a {
     .button p, .button2 p, .button a, .button2 a {
         font-size: 1.125rem;
     }
+
 
     /* INDEX/HOMEPAGE MAIN CONTENT, TABLET */
 
@@ -433,6 +430,7 @@ li:last-child a {
         height: 11.75rem;
     }
 
+
     /* VISIT MAIN CONTENT, TABLET */
 
     .topPage-info {
@@ -477,6 +475,7 @@ li:last-child a {
         margin: 0 3.75rem 100px 3.75rem;
     }
 
+
     /* CONTRIBUTION MAIN CONTENT, TABLET */
 
     .sectionContainer3 {
@@ -498,6 +497,7 @@ li:last-child a {
     .sectionContainer3:last-child {
         margin-bottom: 100px;
     }
+
 
     /* EXHIBITIONS MAIN CONTENT, TABLET */
 
@@ -551,6 +551,7 @@ li:last-child a {
         margin: 0 3.75rem 80px 3.75rem;
     }
 
+
     /* DOCUMENTS MAIN CONTENT, TABLET */
 
     .documentsHeader, .textHeader, .textContainer4 {
@@ -569,13 +570,7 @@ li:last-child a {
         font-size: 22px;
 
     }
-    
 }
-
-
-
-
-
 
 
 @media screen and (min-width: 1024px){
@@ -585,6 +580,7 @@ li:last-child a {
     p {
         font-size: 18px;
     }
+
     
     /* HEADER, DESKTOP */
 
@@ -629,6 +625,7 @@ li:last-child a {
         display: none;
     }
 
+    
     /* THIN BACKGROUND BANNER, DESKTOP */
 
     .gradientBanner {
@@ -637,6 +634,7 @@ li:last-child a {
         margin-top: 125px;
     }
 
+    
     /* FOOTER, DESKTOP */
 
     .footer {
@@ -659,6 +657,7 @@ li:last-child a {
         padding: 14px 0 14px 0;
     }
 
+
     /* BUTTON, DESKTOP */
 
     .button, .button2 {
@@ -669,6 +668,7 @@ li:last-child a {
     .button p, .button2 p, .button a, .button2 a {
         font-size: 16px;
     }
+
 
     /* INDEX/HOMEPAGE MAIN CONTENT, DESKTOP */
 
@@ -762,6 +762,7 @@ li:last-child a {
         background-image: url(../images/home/banner_dna_desktop.jpg);
     }
 
+
     /* VISIT MAIN CONTENT, DESKTOP */
 
     .topPage-info {
@@ -806,6 +807,7 @@ li:last-child a {
         margin: 0 75px 125px 75px;
     }
 
+
     /* CONTRIBUTION MAIN CONTENT, DESKTOP */
 
     .sectionContainer3 {
@@ -837,6 +839,7 @@ li:last-child a {
     .buttonAlignment .button2 {
         margin-bottom: 18px;
     }
+
 
     /* EXHIBITIONS MAIN CONTENT, DESKTOP */
 
@@ -906,6 +909,7 @@ li:last-child a {
         margin: 50px 75px 75px 70px;
         line-height: 40px;
     }
+
 
     /* DOCUMENTS MAIN CONTENT, DESKTOP */
 

@@ -15,21 +15,22 @@
 </head>
 <body>
     <header>
-      	<div class="logo">
-        	<a href="index.html" aria-label="Home">
-          		<img src="images/all/logo.png" alt="">
-        	</a>
-      	</div>
-      	<div class="navigation">
-        	<input type="checkbox" class="toggle-menu">
-        	<div class="hamburger"></div>
-        	<ul class="menu">
-        		<li><a href="index.html" aria-label="Home">Home</a></li>
-        		<li><a href="contact.html" aria-label="Visit">Visit</a></li>
-        		<li><a href="exhibitions.html" aria-label="Exhibitions">Exhibitions</a></li>
-        		<li><a href="contribution.html" aria-label="Contribution">Contribution</a></li>
-        	</ul>
-      	</div>
+    	<div class="logo">
+			<a href="index.html" aria-label="Home">
+			  <img src="images/all/logo.png" alt="CSM logo. Image of DNA in the colours green and blue, with the text: Community Science Museum">
+			</a>
+	  </div>
+	  <div class="navigation">
+		  <input type="checkbox" id="toggle-menu" class="toggle-menu" aria-labelledby="toggle-menu-label">
+		  <span id="toggle-menu-label" class="visually-hidden">Toggle Menu</span>
+		  <div class="hamburger"></div>
+			<ul class="menu">
+			  <li><a href="index.html" aria-label="Home">Home</a></li>
+			  <li><a href="contact.html" aria-label="Visit">Visit</a></li>
+			  <li><a href="exhibitions.html" aria-label="Exhibitions">Exhibitions</a></li>
+			  <li><a href="contribution.html" aria-label="Contribution">Contribution</a></li>
+			</ul>
+	  </div>
     </header>
     <main>
         <div class="gradientBanner"></div>
@@ -92,11 +93,11 @@
 			<div class="formContainer">
 				<h3 class="formHeader">Want to contact us?</h3>
 				<form>
-					<label for="name">Your name:</label>
+					<label for="name" class="visually-hidden">Your name:</label>
 					<input type="text" id="name" name="name" placeholder="&emsp;Your name">
-					<label for="email">Your e-mail:</label>
+					<label for="email" class="visually-hidden">Your e-mail:</label>
 					<input type="text" id="email" name="email" placeholder="&emsp;Your e-mail">
-					<label for="message">Write here - max 150 characters:</label>
+					<label for="message" class="visually-hidden">Write here - max 150 characters:</label>
         			<textarea id="message" name="message" placeholder="&emsp;Write here - max 150 characters" maxlength="150" rows="8"></textarea>
 				</form>
 				<div class="button2">
