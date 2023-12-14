@@ -261,13 +261,16 @@ li:last-child a {
     padding: 0;
 }
 
-@supports (-webkit-appearance: none) and (display: flex) {
-    /* Add specific styles for Samsung Internet dark mode here */
-    /* For example: */
+@media (prefers-color-scheme: dark) {
     body {
-      filter: none; /* Reset any unwanted filters or overlays */
+        filter: none;
     }
 }
+
+/*@supports (-webkit-appearance: none) and (display: flex) {
+    body {
+      filter: none; /*
+}*/
 
 /* MEDIA QUERIES FOR TABLET AND DESKTOP, FOR ALL CSS FILES */
 
