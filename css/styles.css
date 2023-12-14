@@ -11,7 +11,7 @@
 
 /* HEADER STYLING WITH HAMBURGER MENU */
 
-.header {
+header {
     padding: 0 1.75rem 0 1.75rem;
     position: fixed; 
     height: 7.25rem;
@@ -84,6 +84,17 @@
     opacity: 0;
     display: block;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
 
 .navigation input:checked ~ .hamburger {
     background: transparent;
@@ -263,7 +274,7 @@ li:last-child a {
     
     /* HEADER AND HAMBURGER MENU, TABLET */
 
-    .header {
+    header {
         height: 8.563rem;
         padding: 0 3.75rem 0 3.75rem;
     }
@@ -566,7 +577,7 @@ li:last-child a {
     
     /* HEADER, DESKTOP */
 
-    .header {
+    header {
         height: 7.375rem;
         padding: 0 5rem 0 5rem;
     }
