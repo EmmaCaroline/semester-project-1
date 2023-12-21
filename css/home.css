@@ -5,16 +5,16 @@
     background-image: url(../images/home/herobanner.jpg);
     background-size: cover;
     width: 100%;
-    height: 265px;
+    height: 16.563rem;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
     border-bottom: 1px solid var(--wrappercolor);
 }
 
 .herobanner h1 {
     line-height: 14rem;
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 .clickableGames {
@@ -23,8 +23,8 @@
     justify-content: space-around;
     width: 100%;
     height: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 1.563rem;
+    margin-bottom: 1.563rem;
 }
 
 .forKids, .forTeens {
@@ -36,9 +36,9 @@
 
 .clickableGames img {
     max-width: 100%;
-    height: 100px;
-    border-radius: 180px;
-    margin-bottom: 8px;
+    height: 6.25rem;
+    border-radius: 11.25rem;
+    margin-bottom: 0.5rem;
     cursor: pointer;
 }
 
@@ -52,23 +52,23 @@
 
 .sectionTextWrapper, .sectionTextWrapper2 {
     background-color: #FFFFFF;
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
 }
 
 .sectionTextWrapper {
-    margin-top: 55px;
+    margin-top: 3.438rem;
 }
 
 .sectionTextWrapper2 {
-    margin-top: 55px;
+    margin-top: 3.438rem;
 }
 
 .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
     color: var(--textcolor-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 3rem;
     text-transform: none;
 }
@@ -85,7 +85,7 @@
 
 .blueWrapper, .blueWrapper2, .blueWrapper3 {
     background-color: var(--wrappercolor);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
 }
 
@@ -95,10 +95,10 @@
 
 .blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
     color: var(--textcolor-primary);
-    padding: 17px 0 17px 0;
+    padding: 1.063rem 0 1.063rem 0;
     text-align: center;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .imageAndButtonContainer {
@@ -127,7 +127,7 @@
 }
 
 .blueWrapper2 .button2 {
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .blueWrapper3 .button {
@@ -136,8 +136,8 @@
 
 .textContainer {
     color: var(--textcolor-primary);
-    line-height: 20px;
-    padding: 10px 12px 10px 12px;
+    line-height: 1.25rem;
+    padding: 0.625rem 0.75rem 0.625rem 0.75rem;
 }
 
 .kids-3Dprinter {
@@ -145,7 +145,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 55px 1.75rem 55px 1.75rem;
+    margin: 3.438rem 1.75rem 3.438rem 1.75rem;
 }
 
 .kids-3Dprinter img { 

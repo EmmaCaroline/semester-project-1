@@ -9,37 +9,23 @@
 .button                  (found in: "styles.css")
 */
 
-.topPage-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    min-height: auto;
-    margin: 0 1.75rem 75px 1.75rem;
-}
-
 .topPage-info h1 {
-    font-size: 24px;
-    margin: 40px 0 40px 0;
-}
-
-.topPage-info img {
-    max-width: 100%;
-    height: auto;
+    font-size: 1.5rem;
+    line-height: 7rem;
+    text-align: center;
 }
 
 .visit-h2 {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--textcolor-tertiary);
     text-align: center;
-    margin-top: 35px;
+    margin-top: 2.188rem;
 }
 
 .textContainer2 {
     color: var(--textcolor-primary);
-    line-height: 20px;
-    padding: 10px 12px 10px 12px;
+    line-height: 1.25rem;
+    padding: 0.625rem 0.75rem 0.625rem 0.75rem;
     text-align: center;
 }
 
@@ -56,15 +42,15 @@
     color: #6C6C6C;
     max-width: 100%;
     height: auto;
-    margin: 50px 1.75rem 75px 1.75rem;
+    margin: 3.125rem 1.75rem 4.688rem 1.75rem;
 }
 
 .formHeader {
     color: var(--textcolor-primary);
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
 }
 
 form {
@@ -81,29 +67,26 @@ input, textarea {
     width: 100%;
     border: 2px solid #95086D;
     font-family: var(--font-nunito);
-    font-size: 14px;
-    padding: 5px 0 5px 0;
-    margin-bottom: 6px;
+    font-size: 0.875rem;
+    padding: 0.313rem 0 0.313rem 0;
+    margin-bottom: 0.375rem;
     cursor: text;
     resize: none;
 }
 
 .formContainer .button2 {
-    margin-top: 5px;
+    margin-top: 0.313rem;
 }
 
 .imageWrapper {
+    background-image: url(../images/visit/helmet.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    min-height: auto;
-    margin: 0 1.75rem 75px 1.75rem;
-}
-
-.imageWrapper img {
-    max-width: 100%;
-    height: auto;
+    min-height: 12.5rem;
+    margin: 0 1.75rem 4.688rem 1.75rem;
 }
 
 

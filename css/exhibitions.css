@@ -10,15 +10,15 @@
     background-image: url(../images/exhibitions/exhibitions_bg.jpg);
     background-size: cover;
     width: 100%;
-    height: 102px;
+    height: 6.375rem;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 75px;
+    margin-bottom: 4.688rem;
 }
 
 .smallBanner h1 {
     line-height: 4.5rem;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .lightblueWrapper, .blueWrapper5 {
@@ -28,7 +28,7 @@
     justify-content: center;
     max-width: 100%;
     min-height: auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     margin: 0 1.75rem 1.563rem 1.75rem;
 }
 
@@ -41,10 +41,10 @@
 }
 
 .lightblueWrapper h2, .blueWrapper5 h2 {
-    padding: 17px 0 17px 0;
+    padding: 1.063rem 0 1.063rem 0;
     text-align: center;
     white-space: nowrap;
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 .lightblueWrapper h2 {
@@ -58,7 +58,7 @@
 .lightblueWrapper img, .blueWrapper5 img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .exhibitionsTextContainer {
@@ -70,6 +70,7 @@
 
 .lightblueWrapper .textContainer p, .blueWrapper5 .textContainer p {
     margin-top: 0;
+    line-height: 1.25rem;
 }
 
 .lightblueWrapper p {
@@ -80,17 +81,17 @@
     background-image: url(../images/exhibitions/upcoming_bg.jpg);
     background-size: cover;
     width: 100%;
-    height: 102px;
+    height: 6.375rem;
     text-align: center;
     overflow: hidden;
-    margin-top: 75px;
-    margin-bottom: 25px;
+    margin-top: 4.688rem;
+    margin-bottom: 1.563rem;
 }
 
 .smallBanner2 h3 {
     color: var(--textcolor-primary);
     line-height: 4.5rem;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .sectionContainer4 {
@@ -105,7 +106,7 @@
 
 .imageWrapperRound {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 1.563rem;
 }
 
 .imageWrapperRound img {
@@ -131,14 +132,14 @@
     margin: 0;
     text-align: center;
     white-space: nowrap;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .textContainer3 {
-    margin: 50px 1.75rem 75px 1.75rem;
+    margin: 3.125rem 1.75rem 4.688rem 1.75rem;
     text-align: center;
     color: var(--textcolor-primary);
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 

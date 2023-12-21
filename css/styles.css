@@ -87,9 +87,9 @@ header {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    width: 0.063rem;
+    height: 0.063rem;
+    margin: -0.063rem;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
@@ -140,8 +140,8 @@ header {
     display: block;
     text-align: center;
     padding: 1.25rem;
-    font-size: 1.125;
-    line-height: 1;
+    font-size: 1rem;
+    line-height: 1rem;
     border-top: 1px solid #D9D9D9;
     justify-content: center;
     transition: 0.1s;
@@ -159,7 +159,7 @@ li:last-child a {
     background-size: cover;
     height: 0.938rem;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 7.5rem;
 }
 
 
@@ -171,8 +171,8 @@ footer {
     width: 100%;
     height: auto;
     border-top: 1px solid #001C53;
-    padding-top: 30px;
-    padding-bottom: 12px;
+    padding-top: 1.875rem;
+    padding-bottom: 0.75rem;
 }
 
 .footerFlex {
@@ -195,7 +195,7 @@ footer {
 
 .shortcuts a {
     font-family: var(--font-nunito); 
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .shortcuts p {
@@ -209,13 +209,13 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .followUs .icons i{
-    padding: 0 12px 0 12px;
+    padding: 0 0.75rem 0 0.75rem;
     cursor: pointer;
 }
 
@@ -224,21 +224,21 @@ footer h2, footer h4 {
 }
 
 footer h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 footer h4 {
-    font-size: 14px;
+    font-size: 0.875rem;
     text-align: center;
 }
 
 .shortcuts h2 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .followUs h2 {
-    margin-bottom: 35px;
-    margin-top: 50px;
+    margin-bottom: 2.188rem;
+    margin-top: 3.125rem;
 }
 
 
@@ -247,7 +247,7 @@ footer h4 {
 .button, .button2 {
     border-radius: 1.25rem;
     background-color: var(--btn-color);
-    padding: 16px 16px 16px 16px;
+    padding: 1rem;
     border: 0.01rem solid #95086D;
     box-shadow: 0 0.1rem #95086D;
     cursor: pointer;
@@ -272,7 +272,7 @@ footer h4 {
     /* RESET CSS CHANGES, TABLET */
 
     p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     
@@ -303,7 +303,7 @@ footer h4 {
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_tab.jpg");
         height: 1.25rem;
-        margin-top: 140px;
+        margin-top: 8.75rem;
     }
 
 
@@ -326,29 +326,29 @@ footer h4 {
     }
 
     .shortcuts a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .shortcuts h2 {
-        margin-top: 50px;
-        margin-bottom: 35px;
+        margin-top: 3.125rem;
+        margin-bottom: 2.188rem;
     }
 
     .followUs .icons {
         flex-direction: column;
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .followUs .icons i{
-        padding: 30px 0 30px 0;
+        padding: 1.875rem 0 1.875rem 0;
     }
 
     footer h2 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     footer h4 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
 
@@ -356,7 +356,7 @@ footer h4 {
 
     .button, .button2 {
         border-radius: 2.2rem;
-        padding: 22px 30px 22px 30px;
+        padding: 1.375rem 1.875rem 1.375rem 1.875rem;
         box-shadow: 0 0.2rem #95086D;
     }
     
@@ -373,53 +373,53 @@ footer h4 {
 
     .herobanner h1 {
         line-height: 30rem;
-        font-size: 52px;
+        font-size: 3.25rem;
     }
 
     .clickableGames img {
-        height: 130px;
+        height: 8.125rem;
     }
 
     .sectionTextWrapper, .sectionTextWrapper2 {
-        height: 90px;
-        margin-bottom: 54px;
+        height: 5.625rem;
+        margin-bottom: 3.375rem;
     }
 
     .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
         line-height: 5.2rem;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .sectionTextWrapper {
-        margin-top: 120px;
+        margin-top: 7.5rem;
     }
 
     .sectionTextWrapper2 {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
 
     .sectionContainer {
-        margin: 0 3.75rem 40px 3.75rem;
+        margin: 0 3.75rem 2.5rem 3.75rem;
     }
 
     .sectionContainer2 {
-        margin: 0 3.75rem 80px 3.75rem;
+        margin: 0 3.75rem 5rem 3.75rem;
     }
 
     .textContainer {
-        padding: 32px 30px 32px 30px;
+        padding: 2rem 1.875rem 2rem 1.875rem;
     }
 
     .blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .blueWrapper, .blueWrapper3 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
     }
 
     .blueWrapper2 .button2 {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 
     .kids-3Dprinter {
@@ -433,101 +433,98 @@ footer h4 {
 
     /* VISIT MAIN CONTENT, TABLET */
 
-    .topPage-info {
-        margin: 0 3.75rem 80px 3.75rem;
-    }
-
     .topPage-info h1 {
-        font-size: 30px;
-        margin: 60px 0 60px 0;
+        font-size: 1.875rem;
+        line-height: 10rem;
     }
 
     .visit-h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
     .textContainer2 {
-        padding: 32px 30px 32px 30px;
+        padding: 2rem 1.875rem 2rem 1.875rem;
     }
 
     .formContainer {
-        margin: 60px 3.75rem 100px 3.75rem;
+        margin: 3.75rem 3.75rem 6.25rem 3.75rem;
     }
 
     .formHeader {
-        font-size: 22px;
-        margin-bottom: 35px; 
+        font-size: 1.375rem;
+        margin-bottom: 2.188rem; 
     }
 
     input, textarea {
-        font-size: 16px;
-        padding: 8px 0 8px 0;
-        margin-bottom: 10px;
+        font-size: 1rem;
+        padding: 0.5rem 0 0.5rem 0;
+        margin-bottom: 0.625rem;
     }
 
     .formContainer .button {
-        margin-top: 10px;
-        padding-left: 50px; 
-        padding-right: 50px;
+        margin-top: 0.625rem;
+        padding-left: 3.125rem; 
+        padding-right: 3.125rem;
     }
 
     .imageWrapper {
-        margin: 0 3.75rem 100px 3.75rem;
+        min-height: 25rem;
+        margin: 0 3.75rem 6.25rem 3.75rem;
     }
 
 
     /* CONTRIBUTION MAIN CONTENT, TABLET */
 
     .sectionContainer3 {
-        margin: 0 3.75rem 80px 3.75rem;
+        margin: 0 3.75rem 5rem 3.75rem;
     }
     
     .blueWrapper4 {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
     }
     
     .blueWrapper4 h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     
     .blueWrapper4 .button2 {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
     
     .sectionContainer3:last-child {
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
 
 
     /* EXHIBITIONS MAIN CONTENT, TABLET */
 
     .smallBanner {
-        height: 120px;
-        margin-bottom: 60px;
+        height: 7.5rem;
+        margin-bottom: 3.75rem;
     }
     
     .smallBanner h1 {
         line-height: 5.5rem;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
     
     .lightblueWrapper, .blueWrapper5 {
-        margin: 0 3.75rem 80px 3.75rem;
+        margin: 0 3.75rem 5rem 3.75rem;
     }
     
     .lightblueWrapper h2, .blueWrapper5 h2 {
-        font-size: 34px;
+        font-size: 2.125rem;
     }
     
     .smallBanner2 {
-        height: 120px;
-        margin-top: 80px;
-        margin-bottom: 60px;
+        height: 7.5rem;
+        margin-top: 5rem;
+        margin-bottom: 3.75rem;
     }
     
     .smallBanner2 h3 {
         line-height: 3.8rem;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
     
     .sectionContainer4 {
@@ -535,7 +532,7 @@ footer h4 {
     }
     
     .imageWrapperRound {
-        margin-bottom: 80px;
+        margin-bottom: 5rem;
     }
     
     .imageWrapperRound .button {
@@ -544,41 +541,41 @@ footer h4 {
     }
     
     .imageWrapperRound h4 {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     
     .textContainer3 {
-        margin: 0 3.75rem 80px 3.75rem;
+        margin: 0 3.75rem 5rem 3.75rem;
     }
 
 
     /* DOCUMENTS MAIN CONTENT, TABLET */
 
     .documentsHeader, .textHeader, .textContainer4 {
-        margin: 0 3.75rem 25px 3.75rem;
+        margin: 0 3.75rem 1.563rem 3.75rem;
     }
 
     .documentsHeader {
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     
     .documentsHeader h1 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
     
     .textHeader h2 {
-        font-size: 22px;
+        font-size: 1.375rem;
 
     }
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1026px){
 
     /* RESET CSS CHANGES, DESKTOP */
 
     p {
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     
@@ -631,7 +628,7 @@ footer h4 {
     .gradientBanner {
         background-image: url("../images/all/banner_gradient_desk.jpg");
         height: 1.563rem;
-        margin-top: 125px;
+        margin-top: 7.813rem;
     }
 
     
@@ -646,15 +643,15 @@ footer h4 {
     }
 
     .shortcuts a {
-        font-size: 18px;
+        font-size: 1rem;
     }
 
     .followUs .icons {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .followUs .icons i{
-        padding: 14px 0 14px 0;
+        padding: 0.875rem 0 0.875rem 0;
     }
 
 
@@ -662,11 +659,11 @@ footer h4 {
 
     .button, .button2 {
         border-radius: 2rem;
-        padding: 18px 30px 18px 30px;
+        padding: 1.125rem 1.875rem 1.125rem 1.875rem;
     }
     
     .button p, .button2 p, .button a, .button2 a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
 
@@ -674,29 +671,29 @@ footer h4 {
 
     .herobanner {
         background-image: url(../images/home/herobanner_desktop.jpg);
-        height: 43.125rem;
+        height: 31.25rem;
     }
 
     .herobanner h1 {
-        line-height: 38rem;
-        font-size: 68px;
+        line-height: 28.125rem;
+        font-size: 4.25rem;
     }
 
     .clickableGames img {
-        height: 170px;
+        height: 10.625rem;
     }
 
     .sectionTextWrapper, .sectionTextWrapper2 {
-        height: 75px;
+        height: 4.688rem;
     }
 
     .sectionTextWrapper h2, .sectionTextWrapper2 h2 {
         line-height: 4.5rem;
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .sectionTextWrapper {
-        margin-top: 80px;
+        margin-top: 5rem;
     }
 
     .sectionTextWrapper2 {
@@ -709,18 +706,23 @@ footer h4 {
     }
 
     .sectionContainer, .sectionContainer2 {
-        margin: 60px 55px 80px 55px;
+        margin: 3.75rem 3.438rem 5rem 3.438rem;
+    }
+
+    .sectionContainer2 .textContainer {
+        margin-left: 10rem;
+        margin-right: 10rem;
     }
 
     .blueWrapper, .blueWrapper2, .blueWrapper3 {
         flex-basis: calc(33.33% - 1rem);
-        margin: 0 20px 0 20px;
-        border-radius: 14px;
-        font-size: 20px;
+        margin: 0 1.25rem 0 1.25rem;
+        border-radius: 0.875rem;
+        font-size: 1.25rem;
     }
 
     .blueWrapper {
-        height: 900px;
+        height: 56.25rem;
     }
 
     .blueWrapper2 { 
@@ -729,7 +731,7 @@ footer h4 {
     }
 
     .blueWrapper2 img {
-        width: 634px;
+        width: 39.625rem;
     }
 
     .buttonAlignment .button2 {
@@ -737,25 +739,51 @@ footer h4 {
     }
 
     .blueWrapper3 {
-        height: 1150px;
+        min-height: 59.375rem;
     }
 
+    .blueWrapper3:first-child .textContainer {
+        overflow: scroll;
+        height: 15.625rem;
+        margin-top: 3.375rem;
+        padding-top: 0;
+    }
+
+    .blueWrapper3:first-child .textContainer p {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .blueWrapper3:first-child .textContainer::-webkit-scrollbar {
+        width: 0.625rem; 
+      }
+      
+      .blueWrapper3:first-child .textContainer::-webkit-scrollbar-thumb {
+        background-color: #666666; 
+        border-radius: 0.375rem; 
+      }
+      
+      .blueWrapper3:first-child .textContainer::-webkit-scrollbar-corner {
+        display: none; 
+      }
+
     .blueWrapper h3, .blueWrapper2 h3, .blueWrapper3 h3 {
-        padding: 5px 0 5px 0;
+        padding: 0.313rem 0 0.313rem 0;
         line-height: 2rem;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .textContainer {
-        padding: 32px 24px 32px 24px;
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        line-height: 1.875rem;
     }
 
     .kids-3Dprinter {
-        margin: 60px 75px 40px 75px;
+        margin: 3.75rem 4.688rem 2.5rem 4.688rem;
     }
 
     .kids-3Dprinter p {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .dnaBanner {
@@ -765,24 +793,21 @@ footer h4 {
 
     /* VISIT MAIN CONTENT, DESKTOP */
 
-    .topPage-info {
-        margin: 0 75px 40px 75px;
-    }
-
     .topPage-info h1 {
-        font-size: 32px;
-        width: 100%;
+        font-size: 2.125rem;
+        line-height: 6rem;
         text-align: left;
+        margin-top: 2.813rem;
+        margin-left: 4.688rem;
     }
 
     .visit-h2 {
-        font-size: 26px;
-        margin-top: 45px;
+        margin-top: 2.813rem;
     }
 
     .textContainer2 {
-        line-height: 40px;
-        padding: 6px 24px 32px 24px;
+        line-height: 1.875rem;
+        padding: 0.375rem 1.5rem 2rem 1.5rem;
     }
 
     .visit-p-special {
@@ -791,20 +816,22 @@ footer h4 {
     }
 
     .formContainer {
-        margin: 55px 350px 125px 350px;
+        margin: 3.438rem 21.875rem 7.813rem 21.875rem;
     }
 
     .formHeader {
-        font-size: 26px;
-        margin-bottom: 40px; 
+        font-size: 1.625rem;
+        margin-bottom: 2.5rem; 
     }
 
     input, textarea {
-        padding: 10px 0 10px 0;
+        padding: 0.625rem 0 0.625rem 0;
     }
 
     .imageWrapper {
-        margin: 0 75px 125px 75px;
+        background-image: url(../images/visit/helmet_desk.jpg);
+        margin: 0 4.688rem 7.813rem 4.688rem;
+        min-height: 32.5rem;
     }
 
 
@@ -813,22 +840,26 @@ footer h4 {
     .sectionContainer3 {
         flex-direction: row;
         align-items: flex-start;
-        margin: 60px 55px 0 55px;
+        margin: 3.75rem 3.438rem 0 3.438rem;
     }
     
     .blueWrapper4 {
         flex-basis: calc(33.33% - 1rem);
-        margin: 0 20px 0 20px;
-        border-radius: 14px;
-        font-size: 20px;
-        height: 845px;
+        margin: 0 1.25rem 0 1.25rem;
+        border-radius: 0.875rem;
+        font-size: 1.25rem;
+        height: 60rem;
         margin-bottom: 1.563rem;
     }
     
     .blueWrapper4 h2 {
-        padding: 5px 0 5px 0;
+        padding: 0.313rem 0 0.313rem 0;
         line-height: 2rem;
-        font-size: 18px;
+        font-size: 1.125rem;
+    }
+
+    .blueWrapper4 .textContainer {
+        padding-bottom: 0.625rem;
     }
 
     .buttonAlignment {
@@ -837,7 +868,7 @@ footer h4 {
     }
     
     .buttonAlignment .button2 {
-        margin-bottom: 18px;
+        margin-bottom: 1.125rem;
     }
 
 
@@ -845,23 +876,23 @@ footer h4 {
 
     .smallBanner {
         background-image: url(../images/exhibitions/exhibitions_bg_desktop.jpg);
-        height: 140px;
+        height: 8.75rem;
         margin-bottom: 80px;
     }
     
     .smallBanner h1 {
         line-height: 6.5rem;
-        font-size: 32px;
+        font-size: 2.125rem;
     }
     
     .lightblueWrapper, .blueWrapper5 {
         flex-direction: row;
-        margin: 0 75px 80px 75px;
+        margin: 0 4.688rem 5rem 4.688rem;
     }
     
     .lightblueWrapper h2, .blueWrapper5 h2 {
-        font-size: 36px;
-        padding: 0 24px 0 24px;
+        font-size: 2.25rem;
+        padding: 0 1.5rem 0 1.5rem;
         text-align: left;
     }
 
@@ -872,27 +903,36 @@ footer h4 {
     .exhibitionsTextContainer {
         align-items: flex-start;
     }
+
+    .exhibitionsTextContainer h2 {
+        padding-top: 1.25rem;
+        padding-bottom: 0.625rem;
+    }
+
+    .exhibitionsTextContainer .textContainer {
+        padding-top: 0;
+    }
     
     .smallBanner2 {
         background-image: url(../images/exhibitions/upcoming_bg_desktop.jpg);
-        height: 140px;
-        margin-top: 120px;
-        margin-bottom: 60px;
+        height: 8.75rem;
+        margin-top: 7.5rem;
+        margin-bottom: 3.75rem;
     }
     
     .smallBanner2 h3 {
         line-height: 4.5rem;
-        font-size: 32px;
+        font-size: 2rem;
     }
     
     .sectionContainer4 {
         flex-direction: row;
-        margin: 0 50px 80px 50px;
+        margin: 0 3.125rem 5rem 3.125rem;
     }
     
     .imageWrapperRound {
         margin-bottom: 0;
-        padding: 0 25px 0 25px;
+        padding: 0 1.563rem 0 1.563rem;
     }
     
     .imageWrapperRound .button {
@@ -902,39 +942,43 @@ footer h4 {
     }
     
     .imageWrapperRound h4 {
-        font-size: 23px;
+        font-size: 1.438rem;
     }
     
     .textContainer3 {
-        margin: 50px 75px 75px 70px;
-        line-height: 40px;
+        margin: 3.125rem 4.688rem 4.688rem 4.688rem;
+        line-height: 1.875rem;
+    }
+
+    .lightblueWrapper .textContainer p, .blueWrapper5 .textContainer p {
+        line-height: 1.875rem;
     }
 
 
     /* DOCUMENTS MAIN CONTENT, DESKTOP */
 
     .documentsHeader, .textHeader, .textContainer4 {
-        margin: 0 75px 50px 75px;
+        margin: 0 4.688rem 3.125rem 4.688rem;
     }
 
     .documentsHeader {
-        margin-top: 120px;
+        margin-top: 7.5rem;
     }
     
     .documentsHeader h1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     
     .textHeader h2 {
-        font-size: 26px;
-        margin-top: 80px;
+        font-size: 1.625rem;
+        margin-top: 5rem;
     }
 
     .documentsHeader p, .textContainer4 p {
-        line-height: 30px;
+        line-height: 1.875rem;
     }
 
     .textContainer4:last-child {
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
 }
