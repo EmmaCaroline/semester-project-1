@@ -136,6 +136,7 @@ header {
 }
 
 .menu li a {
+    font-family: var(--font-overlock);
     color: var(--textcolor-primary);
     display: block;
     text-align: center;
