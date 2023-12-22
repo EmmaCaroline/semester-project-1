@@ -138,6 +138,7 @@ header {
 .menu li a {
     font-family: var(--font-overlock);
     color: var(--textcolor-primary);
+    text-transform: uppercase;
     display: block;
     text-align: center;
     padding: 1.25rem;
